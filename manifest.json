@@ -1,0 +1,19 @@
+{
+    "name": "bryansadblocker",
+    "version": "1.0",
+    "description": "Adblocker project",
+    "permissions": [
+      "declarativeNetRequest",
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "/icons16.png",
+      "48": "/icons48.png",
+      "128": "/icons128.png"
+    },
+    "manifest_version": 3
+  }
+  
